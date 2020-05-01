@@ -1,0 +1,41 @@
+<!---
+Author Esther Dzifa Mensah
+Date 01/05/2020
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ui assignment</title>
+    <script type="text/javascript" src= "toDoList.js"></script>
+
+</head>
+<body>
+
+<h1> welcome to you to do list</h1>
+<form id="todo" onsubmit = "return false"><br>
+    <label for="add">Add item:</label><br>
+    
+    <input type="text" id="item" required><br><br>
+    <label for="date">Date</label>
+    <input type="datetime-local" id="dateTime" required><br><br> 
+
+    <label for = "severity">Severity level</label>
+    <select id="severity">
+        <option value="high">high</option>
+        <option value="medium">medium</option>
+        <option value="low">low</option>
+      </select>
+    <br><br>
+    
+    <input type="submit" value="add to list" onclick="todoApp()">
+
+    
+
+</form> 
+<p id="display">List Content</p>
+    
+    
+
+</body>
+</html>

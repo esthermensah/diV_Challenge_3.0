@@ -1,0 +1,12 @@
+Author Esther Dzifa Mensah
+Date 01/05/2020
+
+Objective: To create a to do list and to sort list by the date property
+
+
+Inputs:
+Name of task
+Time and date
+Severity level
+
+Data structures used: List dictionary.
